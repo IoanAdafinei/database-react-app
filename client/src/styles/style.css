@@ -1,0 +1,483 @@
+.App {
+  min-height: 76.9vh;
+  height: auto;
+  padding: 0px 100px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center; */
+  background: #c1dff0;
+}
+
+.autori {
+  padding-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+
+.autor {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.delete {
+  border: none;
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid rgb(245, 191, 191);
+  color: rgb(242, 100, 100);
+}
+
+.update {
+  border: none;
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid #3587a4;
+  color: #3587a4;
+}
+
+.form {
+  padding-top: 5vh;
+  min-width: 80vw;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+input {
+  width: 25vw;
+  padding: 10px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.formButton {
+  border: none;
+  padding: 10px;
+  background-color: #2d848a;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+table,
+td {
+  padding: 3px;
+  border-collapse: collapse;
+  border: 2px solid rgb(255, 255, 255);
+  text-align: justify;
+}
+
+.header {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  z-index: 10;
+}
+
+.home {
+  padding-top: 50px;
+}
+
+img {
+  width: 70%;
+  height: auto;
+}
+
+.header {
+  background: #c1dff0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  color: black;
+  /* box-sizing: border-box; */
+}
+
+.home_cover {
+  width: 100%;
+  height: auto;
+}
+
+.home_bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2vh;
+}
+
+.table-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.adminHome {
+  align-items: center;
+}
+
+.adminBoxRow {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.adminSpacer {
+  display: flex;
+  min-height: 32vh;
+}
+
+.flexItem {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  text-align: center;
+}
+
+.books-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.book-title-cell {
+  width: 20vw;
+  border-right: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.book-author-cell {
+  width: 10vw;
+  border-right: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.book-genre-cell {
+  width: 6vw;
+  border-right: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.book-year-cell {
+  width: 10vw;
+  border-right: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.book-language-cell {
+  width: 6vw;
+  border-right: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.book-price-cell {
+  width: 4vw;
+  text-align: center;
+}
+
+.review-cell {
+  width: 5vw;
+  border-right: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.review-text-cell {
+  min-width: 20vw;
+  text-align: center;
+}
+
+.review-average-cell {
+  width: 5vw;
+  text-align: center;
+}
+
+.order-name-cell {
+  min-width: 7vw;
+  border-right: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.order-surname-cell {
+  min-width: 6vw;
+  border-right: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.order-books-cell {
+  min-width: 22vw;
+  max-width: 22vw;
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+.order-id-cell {
+  min-width: 5vw;
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+.order-quantity-cell {
+  min-width: 15vw;
+  text-align: center;
+}
+
+.book-title-cell-single {
+  width: 90vw;
+  text-align: center;
+}
+
+.review-text-cell-full-reviews {
+  min-width: 22vw;
+  border-right: 1px solid rgb(0, 0, 0);
+  text-align: center;
+}
+
+.review-book-title {
+  min-width: 15vw;
+  text-align: center;
+}
+
+.dropdown-menu {
+  max-height: 35vh;
+  overflow-y: auto;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/hamburger_navbar.png") !important;
+}
+
+.search-by-author {
+  padding-top: 15vh;
+}
+
+.header-review-name-cell {
+  min-width: 7vw;
+  border-right: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-review-surname-cell {
+  min-width: 6vw;
+  border-right: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-review-cell {
+  min-width: 5vw;
+  border-right: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-review-text-cell-full-reviews {
+  min-width: 22vw;
+  border-right: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-review-book-title {
+  min-width: 15vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-review-avg-title {
+  min-width: 30vw;
+  text-align: center;
+  font-weight: bold;
+  border-right: 1px solid black;
+}
+
+.header-review-avg {
+  min-width: 10vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+.review-avg-title {
+  min-width: 30vw;
+  text-align: center;
+  border-right: 1px solid black;
+}
+
+.review-avg {
+  min-width: 10vw;
+  text-align: center;
+}
+.table-head {
+  table-layout: fixed;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.big-bold-text {
+  padding-top: 5vh;
+  font-weight: bold;
+  font-size: large;
+}
+
+.mapped-items {
+  padding-left: 50px;
+}
+
+.header-books-title {
+  min-width: 8vw;
+  border-right: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-books-authors {
+  min-width: 10vw;
+  border-right: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-books-genre {
+  min-width: 6vw;
+  border-right: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-books-publication-date {
+  min-width: 10vw;
+  border-right: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-books-language {
+  min-width: 6vw;
+  border-right: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-books-price {
+  min-width: 4vw;
+  border-right: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-review-text {
+  min-width: 20vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-genre-title {
+  min-width: 15vw;
+  border-right: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-genre-author {
+  min-width: 20vw;
+  border-right: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+
+.header-genre-language {
+  min-width: 10vw;
+  text-align: center;
+  font-weight: bold;
+}
+
+.genre-title {
+  min-width: 15vw;
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+.genre-author {
+  min-width: 20vw;
+  border-right: 1px solid black;
+  text-align: center;
+}
+
+.genre-language {
+  min-width: 10vw;
+  text-align: center;
+}
+
+.header-review-average-title {
+  min-width: 20vw;
+  border-right: 1px solid black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.header-review-average {
+  min-width: 5vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (width < 992px) {
+  .header {
+    background-color: white;
+  }
+}
+
+@media screen and (width > 1400px) {
+  .home_cover {
+    max-height: 50vh;
+  }
+}
+
+.homeBoxRow {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.bookImage {
+  width: 40vw;
+}
+
+.homeFlexItem {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+
+.homeFlexImage {
+  flex: 1;
+}
